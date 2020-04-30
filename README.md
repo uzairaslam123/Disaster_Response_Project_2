@@ -45,6 +45,6 @@ Below is the file structure of this project.
 
 - The **notebooks** folder contains the juptyter notebook files **ETL\ Pipeline\ Preparation.ipynb** and **ML\ Pipeline\ Preparation.ipynb** that were used to write the ETL and ML piplines for the data and to perform some further analysis 
 
-- The **models** folder contains a **train_classifier.py** python file which is a Machine Leanring pipeline to fetch the data from the database and trains the model and then finall saves the trained model with the best hyperparameters in the pickle file named **classifier.pkl**.
+- The **models** folder contains a **train_classifier.py** python file which is a Machine Leanring pipeline to fetch the data from the database and trains the model and then finally saves the trained model, with the best hyperparameters, in the pickle file named **classifier.pkl**.
 
 
