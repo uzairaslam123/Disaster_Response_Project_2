@@ -48,3 +48,39 @@ Below is the file structure of this project.
 - The **models** folder contains a **train_classifier.py** python file which is a Machine Leanring pipeline to fetch the data from the database and trains the model and then finally saves the trained model, with the best hyperparameters, in the pickle file named **classifier.pkl**.
 
 
+## Installation and Dependencies<a name="Installation"></a>
+
+To be able to run and use this web app, you can either clone or download this repository to your local machine.
+The next step will be to open a new terminal window. You should be in the home folder, but if not, then use terminal commands to navigate inside the folder with the run.py file.
+
+Type in the command line:
+
+```bash 
+cd app/ #to move to the app folder
+python run.py #command to run the web app
+```
+Normally the first step would be to run the data pre-processing file **process_data.py** by using the command 
+
+```bash
+python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db #run the ETL pipeline and saves the data in the database
+
+```
+After this step, Machine Learnign pipeline should be run, to fetch the data from the database and train the model and then finally save it as a pickle file. This can be done by the following command.
+
+```bash
+python models/train_classifier.py data/DisasterResponse.db models/ada_classifier.pkl #command to run the machine learnign pipeline and train the model.
+
+```
+
+#### Dependencies
+
+Following packages and python libraries were used in this project:
+- pandas
+- re
+- numpy
+- nltk
+- pickle
+- scikit-learn
+- plotly
+- flask
+- sqlalchemy
