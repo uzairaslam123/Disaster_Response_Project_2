@@ -2,7 +2,7 @@
 
 1. [Introduction](#introduction)
 2. [File Descriptions](#descriptions)
-3. [Installation and Dependencies] (#installation and dependencies)
+3. [Installation and Dependencies](#installation)
 4. [How to setup and run](#setup)
 5. [Conclusion](#conclusion)
 6. [Licensing, Authors, and Acknowledgments](#licensing)
