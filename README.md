@@ -68,7 +68,7 @@ python data/process_data.py data/disaster_messages.csv data/disaster_categories.
 After this step, Machine Learnign pipeline should be run, to fetch the data from the database and train the model and then finally save it as a pickle file. This can be done by the following command.
 
 ```bash
-python models/train_classifier.py data/DisasterResponse.db models/ada_classifier.pkl #command to run the machine learnign pipeline and train the model.
+python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl #command to run the machine learnign pipeline and train the model.
 
 ```
 
