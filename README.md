@@ -84,3 +84,25 @@ Following packages and python libraries were used in this project:
 - plotly
 - flask
 - sqlalchemy
+
+## How to setup and run<a name="setup"></a>
+
+Once you have successfully installed all the files, you can use the web app by visiting http://0.0.0.0:3001/.
+There you willfind three different visual representations of the data which will help you understand the app and its functionality better. 
+
+You will also find a text box, where you can enter any text message and the model will classify it into 36 different categories. 
+
+## Conclusion<a name="conclusion"></a>
+In the end i would like to say that it is nearly impossible to avoid any of the natural diasters but we can use technology to improve our response to such calamities. Machine Learning has proven to be beneficial in all areas of life and using Machine Learning in thiis project, we can close the gap between the victims of natural disasters and the people and organizations who are trying to save such victims. 
+
+The questions is, how can you use technology to make this world a better place?
+
+
+## Licensing, Authors, and Acknowledgments<a name="licensing"></a>
+
+This project was made possible by Figure Eight Inc. for providing the dataset and Udacity, for providing us such a great platform for learning.
+Feel free to use my code in any of your projects
+
+Enjoyyy.
+
+
