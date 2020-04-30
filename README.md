@@ -32,8 +32,8 @@ Below is the file structure of this project.
 │   ├── disaster_messages.csv # messages dataset
 │   └── process_data.py # process and clean data script
 ├── notebooks
-│   ├── ETL\ Pipeline\ Preparation.ipynb # ETL notebook
-│   └── ML\ Pipeline\ Preparation.ipynb # ML notebook
+│   ├── ETL Pipeline Preparation.ipynb # ETL notebook
+│   └── ML Pipeline Preparation.ipynb # ML notebook
 └── models
     ├── classifier.pkl # model
     ├── train_classifier.py # model training script
