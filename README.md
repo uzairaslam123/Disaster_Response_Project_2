@@ -19,27 +19,31 @@ The data set that we will be using in this project has been provided by Figure E
 
 Below is the file structure of this project.
 
-- app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
-
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py
-|- DisasterResponse.db   # database to save clean data to
-
-- models
-|- train_classifier.py
-|- classifier.pkl  # saved model 
-
-- README.md
+```bash
+├── README.md
+├── app
+│   ├── run.py # runs the web app
+│   └── templates 
+│       ├── go.html # classificaton page
+│       └── master.html # home pagee with visualisations
+├── data
+│   ├── DisasterResponse.db # database with clean data
+│   ├── disaster_categories.csv # category dataset
+│   ├── disaster_messages.csv # messages dataset
+│   └── process_data.py # process and clean data script
+├── notebooks
+│   ├── ETL\ Pipeline\ Preparation.ipynb # ETL notebook
+│   └── ML\ Pipeline\ Preparation.ipynb # ML notebook
+└── models
+    ├── classifier.pkl # model
+    ├── train_classifier.py # model training script
+```   
 
 - The **app** folder contains html templates for the app and a python script **run.py** that creates and runs the web app.
 
-- The **data** folder contains the **process_data.py** python file whihc is an ETL (Extract, Transport and Load) pipeline that processes the data provided in the files **categories.csv** and **messages.csv**  and saves it in the database **DisasterResponse**.db. 
+- The **data** folder contains the **process_data.py** python file whihc is an ETL (Extract, Transport and Load) pipeline that processes the data provided in the files **categories.csv** and **messages.csv**  and saves it in the database **DisasterResponse.db**.
+
+- The **notebooks** folder contains the juptyter notebook files **ETL\ Pipeline\ Preparation.ipynb** and **ML\ Pipeline\ Preparation.ipynb** that were used to write the ETL and ML piplines for the data and to perform some further analysis 
 
 - The **models** folder contains a **train_classifier.py** python file which is a Machine Leanring pipeline to fetch the data from the database and trains the model and then finall saves the trained model with the best hyperparameters in the pickle file named **classifier.pkl**.
 
